@@ -13,7 +13,7 @@
 # text = input("입력:")
 # print("'" + text + "'")
 
-# x = int(input("입력1:"))
-# y = int(input("입력2:"))
-# print(x)
-# print(y)
+x = int(input("입력1:"))
+y = int(input("입력2:"))
+print(x)
+print(y)
