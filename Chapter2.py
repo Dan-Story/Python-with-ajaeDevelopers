@@ -21,7 +21,7 @@
 # print("{:2}, {:.1f}".format(a, b))
 # print("%d, %.1f" % (a,b))
 
-# a = int(input("입력1: "))
-# b = int(input("입력2: "))
-# c = int(input("입력3: "))
-# print(a>=0 or b>=0 or c>=0)
+a = int(input("입력1: "))
+b = int(input("입력2: "))
+c = int(input("입력3: "))
+print(a>=0 or b>=0 or c>=0)
