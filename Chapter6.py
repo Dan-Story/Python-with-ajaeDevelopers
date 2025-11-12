@@ -79,11 +79,56 @@
 # print(b)
 
 #7
-x = input("입력: ")
-cnt = 0
-for i in x:
-    for j in "aeiouAEIOU":
-        if i==j:
-            cnt = cnt + 1
+# x = input("입력: ")
+# cnt = 0
+# for i in x:
+#     for j in "aeiouAEIOU":
+#         if i==j:
+#             cnt = cnt + 1
 
-print(cnt)
+# print(cnt)
+
+#8
+# x = int(input("입력: "))
+
+# for i in range(1, x + 1):
+#     if x % i == 0:
+#         print(i)
+
+#9
+# x = int(input("입력: "))
+
+# for i in range(1, x + 1):
+#     print("*"*i)
+
+#10
+# num1 = int(input("숫자1: "))
+# num2 = int(input("숫자2: "))
+# num3 = int(input("숫자3: "))
+# nums = [num1, num2, num3]
+# sum = 0
+
+# for i in nums:
+#     if i % 3 == 0:
+#         sum = i + sum
+
+# print(f"3의 배수의 합은 {sum}입니다.")
+
+#11
+# x = int(input("N을 입력: "))
+
+# for i in range(1, x**2 + 1):
+#     print(f"{i:2}", end =" ")
+#     if i % x == 0:
+#         print()
+    
+
+
+# N = int(input("N을 입력: "))
+
+# num = 1
+# for i in range(N):
+#     for j in range(N):
+#         print(f"{num:2}", end=" ")
+#         num += 1
+#     print()
